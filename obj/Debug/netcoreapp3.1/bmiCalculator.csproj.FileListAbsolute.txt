@@ -1,0 +1,13 @@
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\bin\Debug\netcoreapp3.1\bmiCalculator.exe
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\bin\Debug\netcoreapp3.1\bmiCalculator.deps.json
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\bin\Debug\netcoreapp3.1\bmiCalculator.runtimeconfig.json
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\bin\Debug\netcoreapp3.1\bmiCalculator.runtimeconfig.dev.json
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\bin\Debug\netcoreapp3.1\bmiCalculator.dll
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\bin\Debug\netcoreapp3.1\bmiCalculator.pdb
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.csprojAssemblyReference.cache
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.AssemblyInfoInputs.cache
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.AssemblyInfo.cs
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.csproj.CoreCompileInputs.cache
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.dll
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.pdb
+C:\Users\jacob\OneDrive\Documents\CODING PROJECTS\2021 publish\bmiCalculator\obj\Debug\netcoreapp3.1\bmiCalculator.genruntimeconfig.cache
