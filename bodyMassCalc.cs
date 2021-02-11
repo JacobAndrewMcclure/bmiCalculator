@@ -6,8 +6,8 @@ namespace bodyMassCalc
     {
         public double bmiCalc(double weight, double height)
         {
-            double x = (weight * 703) / (height * height);
-            return Math.Round(x, 1);
+            double bodyMassIndex = (weight * 703) / (height * height);
+            return Math.Round(bodyMassIndex, 1);
         }
     }
 }
