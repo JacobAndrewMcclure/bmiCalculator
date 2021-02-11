@@ -4,9 +4,13 @@ namespace bodyMassRange
     {
         public string bodyMassRating(double bodyIndex)
         {
-            if (bodyIndex < 18.5)
+            if (bodyIndex < 0)
             {
-                return "underweight";
+                return "Invalid BMI";
+            }
+            else if (bodyIndex < 18.5)
+            {
+                return "Underweight";
             }
             else if (bodyIndex < 24.9)
             {

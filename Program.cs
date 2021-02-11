@@ -1,4 +1,5 @@
-﻿using bodyMassCalc;
+﻿using System;
+using bodyMassCalc;
 using bodyMassRange;
 using obtainUserInfo;
 using userStatsDisplay;
@@ -10,10 +11,11 @@ namespace bmiCalculator
         static void Main(string[] args)
         {
             //Initialize variables
-            double userHeight;
-            double userWeight;
+            double userHeight = 0;
+            double userWeight = 0;
             double userBmi;
             string bodyMassRating;
+            var userInputActivity = true;
 
             //Establish new class instances
             BodyMassCalc BodyMassCalc = new BodyMassCalc();
@@ -21,10 +23,37 @@ namespace bmiCalculator
             ObtainUserInfo ObtainUserInfo = new ObtainUserInfo();
             UserStatsDisplay UserStatsDisplay = new UserStatsDisplay();
             
-            //Ask user height
-            userHeight = ObtainUserInfo.userHeight();
-            //Ask user weight
-            userWeight = ObtainUserInfo.userWeight();
+            while(userInputActivity == true)
+            {
+                try
+                {
+                //Ask user height
+                userHeight = ObtainUserInfo.userHeight();
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                try
+                {
+                //Ask user weight
+                userWeight = ObtainUserInfo.userWeight();
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                
+                if (userHeight <= 0 || userWeight <= 0)
+                {
+                    userInputActivity = true;
+                    Console.WriteLine("Invalid height or weight!");
+                }
+                else
+                {
+                    userInputActivity = false;
+                }
+            }
             //calculate BMI
             userBmi = BodyMassCalc.bmiCalc(userWeight, userHeight);
             //Determine BMI range good/obese/underweight etc....
